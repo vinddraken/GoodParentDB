@@ -421,6 +421,7 @@
 				GCC_PREFIX_HEADER = "GoodParentDB/GoodParentDB-Prefix.pch";
 				INFOPLIST_FILE = "GoodParentDB/GoodParentDB-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -432,6 +433,7 @@
 				GCC_PREFIX_HEADER = "GoodParentDB/GoodParentDB-Prefix.pch";
 				INFOPLIST_FILE = "GoodParentDB/GoodParentDB-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -489,6 +491,7 @@
 				63CCD1C816B90B88003850D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63CCD1C916B90B88003850D7 /* Build configuration list for PBXNativeTarget "GoodParentDBTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +500,7 @@
 				63CCD1CB16B90B88003850D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
